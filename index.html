@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhi Shopping</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loading-screen">
+    <img src="logo.gif" alt="Nikhi Logo Animation">
+  </div>
+  <header>
+    <img src="nikhi_logo.png" alt="Nikhi Logo" class="site-logo">
+    <input type="search" placeholder="প্রোডাক্ট খুঁজুন..." id="searchBox">
+    <button onclick="searchProduct()">সার্চ</button>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#men">পুরুষ</a></li>
+      <li><a href="#women">নারী</a></li>
+      <li><a href="#kids">শিশু</a></li>
+      <li><a href="#event">ইভেন্ট</a></li>
+      <li><a href="#about">আমাদের সম্পর্কে</a></li>
+    </ul>
+  </nav>
+  <section id="products"></section>
+  <div id="cart"></div>
+  <section id="payment">
+    <h2>পেমেন্ট অপশন</h2>
+    <ul>
+      <li>Bkash - 01798139407</li>
+      <li>Nagad - 01798139407</li>
+      <li>Upay - 01798139407</li>
+      <li>Bank: 0073222000000817 (NPSB)</li>
+      <li>Pocket Tap - 01798139407</li>
+    </ul>
+  </section>
+  <div id="live-chat-trigger" onclick="openChat()">
+    <img src="nikhi_logo.png" class="chat-logo">
+    <p>লাইভ চ্যাট</p>
+  </div>
+  <div id="live-chat-box" style="display: none"></div>
+  <section id="event">
+    <h2>নিখি ইভেন্ট</h2>
+  </section>
+  <section id="about">
+    <img src="sonik_logo.png">
+    <p>এই ওয়েবসাইট সনিক গ্রুপের একটি প্রোডাক্ট।</p>
+    <a href="https://facebook.com/nikhioffcial">আমাদের ফেসবুক</a>
+  </section>
+  <footer>
+    <a href="#">Privacy Policy</a> | <a href="#">Settings</a>
+    <p>&copy; 2025 Nikhi Shopping</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
